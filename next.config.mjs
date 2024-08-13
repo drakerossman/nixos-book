@@ -5,7 +5,7 @@
 const ContentSecurityPolicy = `
   default-src 'self';
   script-src 'self' 'unsafe-eval' 'unsafe-inline' giscus.app *.goatcounter.com *.paddle.com paddle.com *.zgo.at mastodon.social;
-  style-src 'self' 'unsafe-inline' *.googleapis.com cdn.jsdelivr.net;
+  style-src 'self' 'unsafe-inline' *.googleapis.com cdn.jsdelivr.net *.paddle.com paddle.com;
   img-src * blob: data:;
   media-src nixosbook.com localhost localhost:3000;
   connect-src *;
