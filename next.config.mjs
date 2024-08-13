@@ -55,11 +55,6 @@ const nextConfig = {
     eslint: {
         ignoreDuringBuilds: true,
     },
-};
-
-export default nextConfig;
-
-module.exports = {
     async headers() {
         return [
             {
@@ -68,4 +63,6 @@ module.exports = {
             },
         ]
     },
-}
+};
+
+export default nextConfig;
