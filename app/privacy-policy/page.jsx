@@ -210,7 +210,7 @@ export default function Page() {
         <p>We may use third-party Service Providers to monitor and analyze the
             use of our Service.</p>
         <h4 id="goatcounter">GoatCounter</h4>
-        <p>GoatCounter is an open source website analytics platform built. For
+        <p>GoatCounter is an open source website analytics platform. For
             more information about GoatCounter, please visit their Privacy Policy:
             https://www.goatcounter.com/help/privacy</p>
         <h3 id="payments">Payments</h3>
