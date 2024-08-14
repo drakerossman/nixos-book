@@ -209,9 +209,9 @@ export default function Page() {
         <h3 id="analytics">Analytics</h3>
         <p>We may use third-party Service Providers to monitor and analyze the
             use of our Service.</p>
-        <h4 id="goatcounter">Goatcounter</h4>
-        <p>Goutcounter is an open source website analytics platform built. For
-            more information about PostHog, please visit their Privacy Policy:
+        <h4 id="goatcounter">GoatCounter</h4>
+        <p>GoatCounter is an open source website analytics platform built. For
+            more information about GoatCounter, please visit their Privacy Policy:
             https://www.goatcounter.com/help/privacy</p>
         <h3 id="payments">Payments</h3>
         <p>We may provide paid products and/or services within Service. In that
