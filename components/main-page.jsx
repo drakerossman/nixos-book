@@ -189,9 +189,21 @@ export function MainPage() {
               <p className="text-gray-300">
                   Please enter a valid email during checkout. Your book will be sent to this email.
               </p>
+              <br></br>
+              <p className="text-gray-300">
+                By continuing, you accept our <span>
+                  <Link className="underline" href="/terms-and-conditions">
+                    Terms and Conditions
+                  </Link>
+                </span> and <span>
+                  <Link className="underline" href="/privacy-policy">
+                  Privacy Policy
+                  </Link>
+                </span>
+              </p>
                 <div className="mt-8 flex justify-center items-center">
                   <Checkbox className="mr-3" id="tos-agree" onCheckedChange={handleTosAgree} />
-                  <Label htmlFor="tos-agree">acknowledged</Label>
+                  <Label htmlFor="tos-agree">Acknowledged</Label>
               </div>
             </div>
             <DialogFooter>
@@ -281,6 +293,16 @@ export function MainPage() {
           <Link href="https://twitter.com/drakerossman" className="text-gray-400 hover:text-[#4fa6f2] transition-colors" prefetch={false}>
             <TwitterIcon className="w-10 h-10" />
           </Link>
+            <span>
+              <Link className="text-gray-400 underline" href="/terms-and-conditions">
+                Terms and Conditions
+              </Link>
+            </span>
+            <span>
+              <Link className="text-gray-400 underline" href="/privacy-policy">
+                Privacy Policy
+              </Link>
+            </span>
         </div>
       </footer>
     </div>)
