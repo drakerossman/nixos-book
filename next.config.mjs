@@ -4,13 +4,13 @@
 // You might need to insert additional domains in script-src if you are using external services
 const ContentSecurityPolicy = `
   default-src 'self';
-  script-src 'self' 'unsafe-eval' 'unsafe-inline' giscus.app *.goatcounter.com *.paddle.com paddle.com *.zgo.at mastodon.social;
-  style-src 'self' 'unsafe-inline' *.googleapis.com cdn.jsdelivr.net *.paddle.com paddle.com;
+  script-src 'self' 'unsafe-eval' 'unsafe-inline' giscus.app *.goatcounter.com *.stripe.com stripe.com *.zgo.at mastodon.social;
+  style-src 'self' 'unsafe-inline' *.googleapis.com cdn.jsdelivr.net *.stripe.com stripe.com;
   img-src * blob: data:;
   media-src nixosbook.com localhost localhost:3000;
   connect-src *;
   font-src 'self' fonts.gstatic.com cdn.jsdelivr.net;
-  frame-src giscus.app *.goatcounter.com *.paddle.com paddle.com *.zgo.at mastodon.social
+  frame-src giscus.app *.goatcounter.com *.stripe.com stripe.com *.zgo.at mastodon.social
 `
 
 const securityHeaders = [

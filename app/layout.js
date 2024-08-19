@@ -1,4 +1,3 @@
-
 import { Inter } from 'next/font/google'
 import { cn } from '@/lib/utils'
 import './globals.css'
@@ -32,7 +31,7 @@ export default function Layout({ children }) {
 }
 
 export const metadata = {
-  title: 'The Book of NixOS',
+  title: 'Book of NixOS',
   description: 'From Beginner to a Pro, the Book of NixOS will teach you all the ins-and-outs of the NixOS Linux Distribution and the Nix Expressions Language.',
   metadataBase: new URL('https://nixosbook.com'),
 };
